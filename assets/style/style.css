@@ -1,6 +1,7 @@
 :root {
-    --background_color: #white;
+    --background_colo:#fefefe;
     --text_color:#4e4e4e;
+    --section_bg_color:#fefefe;
 }
 
 * {
@@ -9,7 +10,10 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    text-align: center;
 }
+
+/* header setting */
 .nav{
     background-color: white;
     font-size: 24px;
@@ -28,12 +32,36 @@
 }
 
 
+/* container image setting */
+#container {
+    position: relative;
+    text-align: center;
+}
+
+.my_photo {
+    width: 100%;
+    display: table-cell;
+    margin: 0 auto;
+    text-align: center;
+    opacity: 0.7;
+}
+
+/* Main setting */
 section{
     display:inline-block
 }
-.my_photo {
-    height: 800px;
-    display: table-cell;
-    margin: 0 100px 0 100px;
-    text-align: center;
+
+
+#contact{
+    display: inline-block;
+    width: 33%;
+    
+}
+
+.phonecall,
+.email,
+.linkedin {
+    display: inline;
+    height: 48px;
+    width: 48px;
 }
