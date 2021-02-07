@@ -1,0 +1,39 @@
+:root {
+    --background_color: #white;
+    --text_color:#4e4e4e;
+}
+
+* {
+    background-color: var(--background_color);
+    color:var(--text_color);
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.nav{
+    background-color: white;
+    font-size: 24px;
+    padding-top: 15px;
+    text-align: center;
+    }
+
+.nav li {
+    display: inline;
+    text-align: center;
+}
+
+.nav a {
+    display: inline-block;
+    padding: 10px;
+}
+
+
+section{
+    display:inline-block
+}
+.my_photo {
+    height: 800px;
+    display: table-cell;
+    margin: 0 100px 0 100px;
+    text-align: center;
+}
