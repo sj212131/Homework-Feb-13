@@ -171,8 +171,7 @@ section{
 span[data-number] {
     position: relative;
     color: black;
-    cursor: grab;
-    text-decoration: underline;
+    cursor: pointer;
   }
 
 span[data-number]:hover::before,
