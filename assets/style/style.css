@@ -69,8 +69,12 @@ section{
     
 }
 
-.about h2 {
+#about h2 {
     margin-bottom: 30px;
+}
+
+#about p {
+    line-height: 200%;
 }
 
 
@@ -79,6 +83,7 @@ section{
 #mywork {
     margin-top: 50px;
 }
+
 .card {
     flex-direction: column;
     border-style: solid;
