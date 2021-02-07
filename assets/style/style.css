@@ -2,6 +2,7 @@
     --background_colo:#fefefe;
     --text_color:#4e4e4e;
     --card_bg_color:#bada55;
+    --box-shadow: #ccc; 
 }
 
 * {
@@ -91,7 +92,7 @@ section{
     margin: 30px;
     height: 200px;
     border-radius: 10px;
-    box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow: 3px 3px 5px 6px var(--box-shadow);
     background-color: var(--background_colo);
     overflow:hidden
 }
@@ -162,7 +163,7 @@ section{
 .phonecall:hover ,
 .email:hover,
 .linkedin:hover,
-.youtube {
+.youtube:hover {
     transform: scale(1.2);
     cursor: pointer;
 }
