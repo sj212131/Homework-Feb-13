@@ -12,7 +12,6 @@
 
     <header>
         <div class="nav">
-            <nav>
                 <li>
                     <a href="#home">Home</a>
                 </li>
@@ -20,47 +19,103 @@
                     <a href="#about">About</a>
                 </li>
                 <li>
-                    <a href="#my work">My work</a>
+                    <a href="#mywork">My work</a>
                 </li>
                 <li>
                     <a href="#contact">Contant</a>
                 </li>
-            </nav>
         </div>
     </header>
 
     <section class="container">
+        <h1>I'm Dwyane, Web development</h1>
         <img src="./assets/image/Photo.jpg" class="my_photo" alt="my photo">
     </section>
 
     <main>
-        <section class="info">
+        <section id="info">
             <div id='about'>
                 <h2>About Me</h2>
                 <p>
-                   My name is Dwyane Piao, hospitality senior. Front desk manager for 3 years, Positive attitude and excellent communication skills, Experience in motivating and Leading the Front desk team. Ability to remain calm whilst under pressure. multiple language speakers Korean, Chinese, and English. MBA graduated and has over 10 years of customer service experience. also have sales, marking, and finance work experience.      
+                   <strong>My name is Dwyane Piao</strong>, hospitality senior. Front desk manager for 3 years, Positive attitude and excellent communication skills, Experience in motivating and Leading the Front desk team. Ability to remain calm whilst under pressure. multiple language speakers Korean, Chinese, and English. MBA graduated and has over 10 years of customer service experience. also have sales, marking, and finance work experience.
+                   Recently, play with Python & Web development and stream the game     
                 </p>
             </div>
             <br>
 
-            <div id="my work">
+            <div id="mywork">
                 <h2>My work</h2>
-                <p>
-                  My work
-                </p>
+                <div class="codebox1">
+
+                    <div class='colum'>
+                        <section class="card" onclick="window.open('./assets/mywork/Media-Query-Screen/index.html'); return false">
+                            <h2>Media Query Screen</h2>
+                            <img src="./assets/image/MediaQueries2.jpg" class="mqimage"  alt="media queries image">                                        
+                        </section>
+                    </div> 
+
+                    <div class='colum'>
+                        <section class="card" onclick="window.open('./assets/mywork/Responsive-Design/index.html'); return false">
+                            <h2>Respsonsive Design</h2>
+                            <img src="./assets/image/ResponsiveDesign1.png" class="resimage" alt="Respsonsive Design image">
+                        </section>
+                    </div> 
+
+                    <div class='colum'>
+                        <section class="card" onclick="window.open('./assets/mywork/Box-Styling/index.html'); return false">
+                            <h2 style="margin-top: 10px;">Box Styling</h2>
+                            <img src="./assets/image/boxstyling1.png" class="boximage" alt="box Styling image">
+                        </section>
+                    </div> 
+
+                    <div class='colum'>
+                        <section class="card" onclick="window.open('./assets/mywork/Typography/index.html'); return false">
+                            <h2 style="margin-top: 10px;">Typography</h2>
+                            <img src="./assets/image/typography1.png" class="typimage" alt="Typography image">
+                        </section>
+                    </div> 
+
+                    <div class='colum'>
+                        <section class="card" onclick="window.open('./assets/mywork/Pseudo-Classes/index.html'); return false">
+                            <h2 style="margin-top: 10px;">Pseudo Classes</h2>
+                            <img src="./assets/image/pseudo class1.png" class="ps-c-image" alt="Pseudo Classes image">
+                        </section>
+                    </div> 
+
+                    <div class='colum'>
+                        <section class="card" onclick="window.open('./assets/mywork/Pseudo-Elements/index.html'); return false">
+                            <h2>Pseudo Elements</h2>
+                            <img src="./assets/image/pseudo elements1.png" class="ps-e-image" alt="Pseudo Elements image">
+                        </section>
+                    </div> 
             </div>
             <br>
 
             <div id="contact">
                 <h2>Get in Touch</h2>
                 <i>
-                    <img src="./assets/image/phone-512.png" class="phonecall" alt="call icon"/>
+                    <span data-number='646-812-3317'>
+                        <img src="./assets/image/phone-512.png" class="phonecall" alt="call icon"/>
+                    </span>
                 </i>
                 <i>
-                    <img src="./assets/image/email.jpg" class="email" alt="Email icon"/>
+                    <span data-number='sj212131@hotmail.com'>
+                        <img src="./assets/image/email.jpg" class="email" alt="Email icon"/>
+                    </span>
                 </i>
-                <i class="Linkedin">
-                    <img src="./assets/image/linkedin.png" class="linkedin" alt="linkedin icon"/>
+                <i>
+                    <span data-number='Click to My Linkedin'>
+                        <a href="https://www.linkedin.com/in/shangxian-piao-1047a8b5/" target="_blank"> 
+                            <img src="./assets/image/linkedin.png" class="linkedin" alt="linkedin icon">
+                        </a>
+                    </span>
+                </i>
+                <i>
+                    <span data-number='Click to My Youtube'>
+                        <a href="https://www.youtube.com/channel/UC9RrGtU6pPV8veS8UAjjdwA" target="_blank"> 
+                            <img src="./assets/image/YouTube.png" class="youtube" alt="youtube icon">
+                        </a>
+                    </span>
                 </i>
             </div>
             <br>
@@ -68,9 +123,10 @@
 
    
     <footer>
-        <h3></h3>
+        <h3>Have a wonderful day!</h3>
         <p>
-           Have a Wonderful day!
+            © Copyright <strong>LilGreen</strong>. All Rights Reserved
+            Designed by Dwyane Piao LilGreen
         </p>
     </footer> 
 </body>

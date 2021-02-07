@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+header {
+  padding: 60px;
+  text-align: center;
+  background-color: #772014;
+  color: #fff;
+}
+
+nav {
+  display: flex;
+  background-color: #bb8588;
+}
+
+nav p {
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+}
+
+aside {
+  flex: 30%;
+  background-color: #b9c6ae;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+section {
+  flex: 70%;
+  background-color: #fff;
+  padding: 20px;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+  background: #13293d;
+  color: #fff;
+}
+
+/* Image Placeholders */
+.sample-img {
+  background-color: #8ac4ff;
+  width: 100%;
+  padding: 20px;
+  height: 200px;
+  border: 1px solid black;
+}
+
+/* When using `min-width` as the breakpoint, you must go from narrowest to widest to avoid conflict,
+  This is in line with a mobile-first approach */
+
+  /* Desktop - header changes color */
+  @media screen and (min-width: 992px) {
+    header {
+      background-color: #13293d;
+    }
+  }
+  
+  /* Tablets - navbar changes color */
+  @media screen and (min-width: 768px) {
+    nav {
+      background-color: #d8a47f;
+    }
+  }
+  
+  /* Large smartphones - image placeholders change color */
+  @media screen and (min-width: 576px) {
+    .sample-img {
+      background-color: #fff;
+    }
+  }
