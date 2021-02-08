@@ -39,6 +39,7 @@
 
 .nav a:hover{
     transform: scale(1.2);
+    transition: 0.3s;
 }
 
 /* container image setting */
@@ -99,6 +100,7 @@ section{
 
 .card:hover {
     transform: scale(1.2);
+    transition: 0.3s;
     background-color: var(--card_bg_color);
     cursor: pointer;
 }
@@ -165,6 +167,7 @@ section{
 .linkedin:hover,
 .youtube:hover {
     transform: scale(1.2);
+    transition: 0.3s;
     cursor: pointer;
 }
 
